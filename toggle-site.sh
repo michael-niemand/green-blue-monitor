@@ -1,7 +1,5 @@
 # this script basically just copies the green or blue website to /index.htm so it gets displayed by the webserver
-chmod +x ls-over-ssh.sh
-
-LIVE=$(bash ./ls-over-ssh.sh kevin)
+LIVE=$('ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@your.host.com "ls / | grep -E \'green|blue\'"')
 
 if [ "$LIVE" = "blue" ]
 then
