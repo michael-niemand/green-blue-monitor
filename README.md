@@ -1,5 +1,9 @@
 # green-blue-monitor
-a simple tool to display what environment is live in a green-blue deployment
+a quick & dirty hack to display what environment is live in a green-blue deployment 
+
+really nothing fancy. This could be done way more elegantly, I know :)
+
+
 
 jenkins = the nginx config for jenkins (added a context)
 
