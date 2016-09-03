@@ -1,7 +1,6 @@
 # green-blue-monitor
 a quick & dirty hack to display what environment is live in a green-blue deployment 
-
-really nothing fancy. This could be done way more elegantly, I know :)
+really nothing fancy. This could probably be done way nicer with a small python app on the webserver that polls the environment status instead of having a Jenkins job setting it.
 
 
 
